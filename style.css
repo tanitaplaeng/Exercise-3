@@ -8,72 +8,61 @@ body {
     height: 100vh;
 }
 
-h1 { 
-    margin: 0;
-}
-
-.nav, .footer { 
+.header, .footer  {
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     align-items: center;
 }
 
-.title { 
+.title, .top-nav li a {
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
     width: 50%;
-    height: 100%;
 }
 
-ul { 
+.top-nav ul { 
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.links li a { 
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
 }
 
 .main { 
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
-    display: flex;
     height: 500px;
-
+    display: flex;
 }
 
-.main-article { 
+.main-article {
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
-    width: 75%;
+    flex: 0 1 75%;
 }
 
-.side-article {
+.side-article { 
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
-    width: 25%;
+    flex: 0 1 25%;
 }
 
-.copyright { 
+.copyright, .bottom-nav li a { 
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
-    width: 85px;
 }
 
-.footer-nav, .footer-nav li a { 
+.bottom-nav ul { 
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
