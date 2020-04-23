@@ -2,7 +2,83 @@ html, body {
     margin: 0;
     padding: 0;
     border: none;
-    }
-    body {
+}
+
+body {
     height: 100vh;
-    }
+}
+
+h1 { 
+    margin: 0;
+}
+
+.nav, .footer { 
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.title { 
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    width: 50%;
+    height: 100%;
+}
+
+ul { 
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li a { 
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+
+.main { 
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    height: 500px;
+
+}
+
+.main-article { 
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    width: 75%;
+}
+
+.side-article {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    width: 25%;
+}
+
+.copyright { 
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    width: 85px;
+}
+
+.footer-nav, .footer-nav li a { 
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+
+.footer-nav { 
+    display: flex;
+    justify-content: flex-start;
+}
