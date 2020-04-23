@@ -1,3 +1,9 @@
+* {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -9,59 +15,37 @@ body {
 }
 
 .header, .footer  {
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.title, .top-nav li a {
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
+.title {
     width: 50%;
 }
 
-.top-nav ul { 
+.top-nav, ul, li, a {
     list-style: none;
     display: flex;
+    justify-content: center;
+    flex: auto;
 }
 
 .main { 
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
-    height: 500px;
+    height: 400px;
     display: flex;
 }
 
 .main-article {
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
     flex: 0 1 75%;
 }
 
 .side-article { 
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
     flex: 0 1 25%;
 }
 
-.copyright, .bottom-nav li a { 
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
-}
-
 .bottom-nav ul { 
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
     list-style: none;
     display: flex;
     flex-direction: row;
