@@ -36,7 +36,7 @@ ul {
     padding: 0;
 }
 
-li a { 
+.links li a { 
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
@@ -76,9 +76,4 @@ li a {
     border: 2px solid cornflowerblue;
     margin: 5px;
     padding: 3px;
-}
-
-.footer-nav { 
-    display: flex;
-    justify-content: flex-start;
 }
